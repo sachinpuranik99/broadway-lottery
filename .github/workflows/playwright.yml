@@ -3,7 +3,7 @@ on:
   schedule:
     # Run every day at 14:23 UTC
     # - cron: "01 18 * * *"
-    - cron: "0 */2 * * *"
+    - cron: "0 0 1 12 1"
 jobs:
   test:
     timeout-minutes: 60
